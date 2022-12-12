@@ -80,7 +80,7 @@ int main()
                     printf("entered choice is wrong");
             }
         }
-        printf("Do you want to perform operations? any number for Yes and zero for No.\n");
+        printf("Do you want to perform operations? one for Yes and zero for No.\n");
         scanf("%i", &c);
     }while(c);
 }
