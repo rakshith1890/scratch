@@ -82,7 +82,7 @@ int main()
         }
         printf("Do you want to perform operations? one for Yes and zero for No.\n");
         scanf("%i", &c);
-    }while(c);
+    }while(c==1);
 }
 
 int isempty(node *head)
